@@ -41,7 +41,7 @@ CREATE TABLE retail_sales
 BULK INSERT Retail_Sales
 FROM 'D:\SQL_projects\p1\SQL-RetailSalesAnalysis_utf.csv'
 WITH (
-    FIELDTERMINATOR = ',',   -- حددي الفاصل الصح
+    FIELDTERMINATOR = ',',   -- حدد الفاصل الصح
     ROWTERMINATOR = '\n',    -- سطر جديد
     FIRSTROW = 2             -- تجاهل الـ Header
 );
@@ -219,3 +219,4 @@ This project is part of my portfolio, showcasing the SQL skills essential for da
 For more content on SQL, data analysis, and other data-related topics, make sure to follow me on social media and join our community:
 
 - **LinkedIn**: [Connect with me professionally](www.linkedin.com/in/noura-nabile-1530b9241)
+
